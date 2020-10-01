@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="UWPSendTemp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPSendTemp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnButton" Content="Button" Margin="688,404,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.853,4.092" Click="button_Click"/>
+        <ContentControl Content="{Binding}"/>
+
+
+    </Grid>
+</Page>
